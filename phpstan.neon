@@ -1,0 +1,5 @@
+parameters:
+    level: max
+    excludePaths:
+        - src/tests/**/*.php # ignoring tests files because of Pest automagic injection of $this
+        - **/config/*.php
